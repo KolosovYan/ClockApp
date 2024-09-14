@@ -16,7 +16,6 @@ public class TimeFetcher : MonoBehaviour
     [Header("Settings")]
 
     [SerializeField] private float delayInMinutes;
-    [SerializeField] private bool useAverageTime;
 
     private DateTime utcTime;
     private WaitForSeconds updateTimeDelay;
